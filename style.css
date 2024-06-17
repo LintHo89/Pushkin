@@ -1,0 +1,189 @@
+img{
+width: 300px;
+height: 300px;
+
+
+
+
+}
+
+h1{
+text-align: center;
+font-family: "Spicy Rice", serif;
+}
+
+h2{ text-align:left;
+
+
+
+
+}
+
+
+.ol{
+text-align: left;
+}
+
+.PICTURE{
+
+width: 17%;
+height: 300px;
+display: flex;
+align-items: center;
+justify-items: center;
+
+margin-top: -20px;
+
+}
+.PICTURE img{
+
+height: 227px;
+
+
+}
+.op{
+width: 83%;
+
+}
+
+.pw{
+display: flex;
+
+}
+
+
+.menu{
+ width: 100%;
+height: 60px;
+
+background-color: rgb(212, 241, 255);
+
+
+}
+.menu ul{
+height: 100%;
+display: flex;
+list-style-type: none;
+justify-content: space-around;
+align-items: center;
+
+}
+
+.link{
+color: rgb(0, 0, 0);
+text-decoration: none;
+text-transform: uppercase;
+
+transition: 0.5s;
+}
+
+
+.link:hover{
+color: rgb(196, 130, 92);
+text-decoration: underline;
+
+
+
+}
+
+.tu{
+ width: 80%;
+height: 20%;
+}
+
+.rt{
+ display: flex
+
+}
+ .we{
+     display: flex;
+     position: relative;
+ }
+ .we div{
+width: 20%;
+border: 1px solid #ccc;
+border-radius: 8px;
+padding: 10px;
+margin: 0 10px;
+position: relative;
+ }
+ .we h2{
+     position: relative;    
+ }
+ .overlay{
+     position: absolute;
+     left: 0;
+     top: 0;
+    width: 100%;
+    height: 100%;
+     background-color: rgba(255, 244, 224, 0.308);
+ }
+.we div p{
+    position: relative;
+}
+
+ .we div:nth-child(3){
+     background-image: url("20200116104304-645704.jpg");
+     background-size: cover;
+     background-position: right;
+     background-position-x: -280px;
+    
+ }
+ .we div:nth-child(3) .overlay{
+     background-color: rgba(255, 255, 255, 0.315);
+ }
+ 
+ .we div:nth-child(1){
+     background-image: url("471612_original.jpg");
+     background-size: cover;
+     background-position: right;
+     background-position-x: -80px ;
+
+ } 
+ .we div:nth-child(2){
+     background-image: url("749122_original.jpg");
+     background-size: cover;
+     background-position: center;
+     background-position-x: center; 
+    background-color: rgba(255, 255, 255, 0.781);
+}    
+.we div:nth-child(2) .overlay{
+    background-color: rgba(255, 255, 255, 0.466);
+}
+
+    .we div:nth-child(4){
+        background-image: url("scale_2400.jpg");
+        background-size: 120% 110%;
+        background-position: center;
+        
+    }
+    .we div:nth-child(4) .overlay{
+        background-color: rgba(255, 255, 255, 0.514);
+    }
+     .we div:nth-child(5){
+         background-image: url("unnamed.jpg");  
+         background-size: 140% 130%;
+         background-position: -80px;
+      
+        
+    }
+    .mi{
+        display: flex;
+        position: relative;
+    }
+
+    .mi div{
+        width: 20%;
+        height: 560px;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        padding: 10px;
+        margin: 10px 10px;
+        position: relative;
+    }
+    .mi h2{
+    position: relative;
+    }
+    .mi div p{
+        position: relative;
+    }
